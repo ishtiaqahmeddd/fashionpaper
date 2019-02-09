@@ -1,0 +1,400 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Roboto');
+*:focus{
+    outline: none;
+}
+.clear-fix{
+    clear: both;
+}
+.container-fluid{
+    background-color: #ffffff;
+    width: 98%;
+    margin: 0 auto;
+}
+body{
+    background:url(background.png);
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Lato', sans-serif;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Roboto', sans-serif;
+}
+li{
+    list-style: none;
+}
+ul{
+    padding: 0;
+}
+a{
+    font-size: 13px;
+	-webkit-transition: all .3s ease;
+	   -moz-transition: all .3s ease;
+	    -ms-transition: all .3s ease;
+	     -o-transition: all .3s ease;
+	        transition: all .3s ease;
+}
+.container{
+    max-width: 60% !important;
+    margin-bottom: 20px;
+}
+.col-lg-4, .col-sm-3, .col-lg-3, .col-lg-8{
+    padding: 0 !important;
+}
+
+
+
+
+#top-header .main-menu{
+    background-color:#ffffff;
+    max-height: 35px;
+    border-bottom: 1px solid #f3eeee;
+}
+
+#top-header ul li{
+    list-style: none;
+    display: inline-block
+
+}
+#top-header ul li a{
+    display: inline-block;
+    padding: 5px 10px 5px 10px;
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+}
+#top-header ul li a:hover{
+    text-decoration: none;
+    background-color: #e41243;
+    color: #ffffff !important;
+}
+#top-header ul li a.active{
+    text-decoration: none;
+    background-color: black;
+    color: #ffffff !important;
+}
+#social-nav{
+    display: inline-block;
+    position: relative;
+    left: 85%;
+    top: -42px;
+}
+
+
+
+
+#social-nav a{
+    margin: 0 5px;
+    color: #000;
+    font-size: 15px;
+}
+#social-nav a:hover{
+    color: darkgrey;
+}
+
+
+
+
+
+#sidebar{
+    width: 20%;
+    background-color: #ffffff;
+    border-right: 1px solid darkgrey;
+    float: left;
+    margin-right: 1%;
+}
+#sidebar .brand img{
+    width: 100%;
+    padding: 30px;
+}
+.side-nav a:hover{
+    text-decoration: underline;
+}
+.side-nav a span{
+    position: relative;
+    left: 70%;
+    font-weight: bold;
+}
+#collaps-nav{
+    background-color: #cdcdcd;
+    display: none;
+}
+#collaps-nav li{
+    padding: 10px 0;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+#collaps-nav li a{
+    color: #000;
+    padding: 5px 15px;
+}
+
+
+
+
+
+
+
+
+#sidebar-right{
+    width: 20%;
+    float: right;
+}
+
+
+
+#search .search-input{
+    width: 100%;
+    border: none;
+    background-color: #F2F2F2;
+    height: 35px;
+    font-size: 13px;
+    padding: 10px; 
+    box-shadow: inset 0px 0px 2px 0px;
+}
+
+#article a{
+    text-decoration-color: #ffffff;
+}
+.main-post{
+    background-color: rgb(255,0,0,.5);
+    width: 100%;
+    height: 177px;
+    position: relative;
+    top: -180px;
+    margin-bottom: -177px;
+    display: none;
+}
+
+.main-post h2{
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+    color: #ffffff;
+}
+.main-post span{
+    font-size: 35px;
+    color: #ffffff;
+    position: relative;
+    left: 75%;
+    top: 90%;
+}
+.post-link:hover .main-post{
+    display: block;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+/*Recent Post*/
+#recent .recent{
+    border: 1px solid rgba(0,0,0,0.1);
+    margin: 10px 0;
+    border-bottom: none;
+}
+#recent .recent-content{
+   border-right: 1px solid rgba(0,0,0,0.1); 
+    
+}
+#recent h5{
+    padding: 10px;
+    border-bottom: 1px solid rgba(0,0,0,0.1); 
+    text-align: center;
+    margin: 0;
+}
+#recent .recent-title a{
+    text-decoration: none;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #000;
+}
+#recent .recent-title a:hover{
+    text-decoration: underline;
+}
+#recent .recent-title h4{
+    padding: 10px;
+    margin: 0;
+    border-bottom: 1px solid rgba(0,0,0,0.1); 
+}
+
+#recent .article-info{
+    margin: 0;
+    padding: 10px 20px;
+
+}
+#recent .article-info dd{
+    font-size: 13px;
+}
+#recent .recent-p p{
+    font-size: 15px;
+    padding: 1px 10px 10px 10px;
+    margin: 0;
+}
+#recent .recent-btn{
+    padding-left: 20px;
+}
+#recent .recent-btn a{
+    color:#e41243;
+    font-size: 15px;
+}
+
+
+
+
+
+
+/*Foooter Section*/
+#footer{
+    background-color: #ffffff;
+    position: ;
+    bottom: 0;
+    width: 100%;
+}
+.footer{
+    border-top: 1px solid rgba(0,0,0,0.1);
+    margin: 0;
+}
+#footer .module-content{
+
+    border-right: 1px solid rgba(0,0,0,0.1);
+}
+#footer .module-title{
+     border-bottom: 1px solid rgba(0,0,0,0.1);   
+}
+#footer .module-title h5{
+    padding: 13px 0px 3px 20px;
+    text-transform: uppercase;
+    font-size: 15px;
+    display: inline-block;
+}
+#footer .module-title span{
+    font-size: 8px;
+    position: relative;
+    left: 69%;
+    top: -2px;
+}
+#footer .post-icon{
+    font-size: 15px !important;
+    left: 63% !important;
+}
+.tag-icon{
+    font-size: 15px !important;
+    left: 62% !important;
+    top: 0 !important;
+}
+.insta-dot{
+    left: 20% !important;
+}
+.module-nav{
+    padding: 10px 20px;
+}
+.module-nav li a{
+    color: #e41243;
+    font-size: 13px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Single Page Style*/
+.content{
+ background-color: #ffffff;   
+}
+.content-title{
+    border-bottom: 1px solid #bfb3b3a1;
+    padding: 5px 10px 12px 30px;
+    font-weight: normal;
+}
+.content-p{
+    padding: 20px 30px;
+}
+
+
+.content-comment{
+    padding: 0 30px;
+}
+.content-comment h5{
+
+    padding-bottom: 5px;
+}
+.comment-nav{
+    border-top: 1px solid #bfb3b3a1;
+}
+.comment-nav a{
+    padding: 5px;
+    font-size: 25px;
+    color: #000;
+}
+
+
+#comment-text{
+    width: 100%;
+    border: 1px solid #efe8e8;
+    padding: 10px;
+    margin: 5px 0;
+}
+.comment-btn{
+    padding: 5px 30px;
+    border: none;
+    background-color: #e41243;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+.comment-btn:hover{
+    background: #ef466d;
+}
+
+
+
+
+
+
+
+
+/*Category page*/
+.category-recent{
+    max-width: 33.33%;
+    float: left;
+}
+.category-recent .recent{
+    margin: 0 !important;
+}
+.category-section{
+    max-width: 66.66%;
+    float: right;
+}
+.category-section .recent{
+    margin: 0 !important;
+}
+
+
+#page-number ul li{
+
+}
+#page-number ul li a{
+    float: left;
+    padding: 5px 15px;
+    color: red;
+}
